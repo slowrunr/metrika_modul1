@@ -1,0 +1,252 @@
+body {
+  margin: 0 auto;
+  min-width: 1400px;
+  position: relative;
+  width: 1400px;
+  height: 7211px;
+
+  background: #ffffff;
+  font-family: "Manrope", sans-serif;
+
+  font-style: normal;
+  font-weight: 400;
+  box-sizing: border-box;
+  letter-spacing: -0.03em;
+}
+.header-nav {
+  margin: 32px 124px 70px 124px;
+  width: 1151px;
+}
+
+h1 {
+  margin-bottom: 30px;
+  margin-left: 125px;
+  margin-top: 128px;
+  height: 120px;
+  width: 956px;
+
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: -0.03em;
+  color: #121212;
+}
+
+.chair {
+  margin: 0 auto;
+  padding-top: 379px;
+  padding-left: 40px;
+  height: 500px;
+  width: 1150px;
+  background-image: url(/resources/chair.png);
+}
+p {
+  height: 81px;
+  width: 430px;
+
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+
+  color: #ffffff;
+}
+.about-us {
+  margin-top: 150px;
+  margin-left: 125px;
+  height: 518px;
+  width: 1051px;
+}
+h2 {
+  margin-bottom: 30px;
+  height: 25px;
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+
+  text-transform: uppercase;
+
+  color: #121212;
+}
+.about-us-text {
+  height: 366px;
+  width: 1048px;
+
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 61px;
+  letter-spacing: -0.03em;
+
+  color: #121212;
+}
+.btn {
+  margin-top: 30px;
+  width: 255px;
+  height: 67px;
+  background: #ad1818;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 67px;
+
+  display: block;
+  color: #ffffff;
+}
+.projects {
+  margin: 150px 0 0 125px;
+  height: 2122px;
+  width: 1150px;
+}
+
+.project__img {
+  width: 1150px;
+  height: 450px;
+}
+.project__text {
+  height: 41px;
+  margin-top: 15px;
+  font-size: 30px;
+  line-height: 41px;
+  letter-spacing: -0.03em;
+  color: #121212;
+}
+.project__btn {
+  display: inline-block;
+  padding-top: 15px;
+  height: 27px;
+  width: 127px;
+  font-size: 20px;
+  line-height: 27px;
+  text-decoration: none;
+  color: #ad1818;
+}
+.container__salon,
+.container__kitchen {
+  margin-top: 90px;
+}
+.btn__all__projects {
+  top: 3565px;
+  margin-top: 97px;
+  padding: 56px 0;
+  display: block;
+  border: 1px solid #ad1818;
+  text-decoration: none;
+  font-size: 30px;
+  line-height: 41px;
+  color: #ad1818;
+  letter-spacing: -0.03em;
+  text-align: center;
+  border-radius: 5px;
+}
+.btn__all__projects:hover {
+  color: #ffffff;
+  background-color: #ad1818;
+}
+
+.services {
+  margin-top: 150px;
+  /* width: 1400px; */
+  height: 1846px;
+  background-color: #121212;
+}
+.service__text {
+  position: relative;
+  color: #ffffff;
+  padding: 151px 0 0 127px;
+}
+.drawing__img {
+  margin: 34px 0 0 125px;
+}
+.drawing__text,
+.palette__text,
+.author__text,
+.storage__text {
+  margin: 12px 0 0 128px;
+  font-size: 30px;
+  line-height: 41px;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+}
+.palette__img,
+.author__img,
+.storage__img {
+  margin: 60px 0 0 125px;
+}
+.bedroom {
+  box-sizing: border-box;
+  position: relative;
+
+  height: 717px;
+
+  background-image: url("/resources/bedroom.png");
+}
+.bedroom__text {
+  position: absolute;
+  top: 575px;
+  left: 125px;
+  width: 443px;
+  height: 82px;
+  font-size: 30px;
+  line-height: 41px;
+  letter-spacing: -0.03em;
+
+  color: #ffffff;
+}
+
+.contact__text,
+.contacts__information {
+  margin-left: 124px;
+  margin-top: 10px;
+}
+.contact__text::before {
+  content: "";
+  display: block;
+  margin-top: 151px;
+  margin-bottom: 13px;
+  width: 13px;
+  height: 22px;
+  background-image: url("/resources/iconphone.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+
+.nomber__contact,
+.email__contact {
+  margin-left: 125px;
+  text-decoration: none;
+  color: #121212;
+  font-size: 60px;
+  line-height: 60px;
+}
+.nomber__contact {
+  display: block;
+  padding-top: 37px;
+  margin-bottom: 30px;
+}
+.email__contact {
+  box-sizing: border-box;
+
+  width: 412px;
+  height: 60px;
+}
+.email__contact:hover {
+  opacity: 0.5;
+  border-bottom: 2px solid #121212;
+  padding-bottom: 8px;
+}
+.footer__item {
+  margin-top: 150px;
+
+  height: 229px;
+  background-color: #121212;
+}
+.nav {
+  color: #ffffff;
+}
+.row {
+  position: relative;
+  margin: 0 auto;
+  top: 172px;
+}
