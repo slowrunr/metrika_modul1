@@ -1,9 +1,9 @@
 body {
   margin: 0 auto;
-  min-width: 1400px;
+  /* min-width: 1400px; */
   position: relative;
   width: 1400px;
-  height: 7211px;
+  /* height: 7211px; */
 
   background: #ffffff;
   font-family: "Manrope", sans-serif;
