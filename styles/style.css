@@ -2,7 +2,6 @@ body {
   margin: 0 auto;
   position: relative;
 
-  width: 1400px;
   background: #ffffff;
   font-family: "Manrope", sans-serif;
 
@@ -11,6 +10,15 @@ body {
   box-sizing: border-box;
   letter-spacing: -0.03em;
 }
+header {
+  margin: 0 auto;
+  width: 1400px;
+}
+main {
+  width: 1400px;
+  margin: 0 auto;
+}
+
 .head__nav {
   margin-left: 124px;
   margin-top: 32px;
@@ -200,7 +208,7 @@ h2 {
     rgba(0, 0, 0, 0) 0.52%,
     rgba(0, 0, 0, 0.4) 82.81%
   );
-  background-image: url("/resources/bedroom.png");
+  background-image: url("../resources/bedroom.png");
   background-size: cover;
 }
 .bedroom__text {
@@ -229,7 +237,7 @@ h2 {
   margin-bottom: 13px;
   width: 13px;
   height: 22px;
-  background-image: url("/resources/iconphone.png");
+  background-image: url("../resources/iconphone.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 100%;
