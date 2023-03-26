@@ -1,9 +1,9 @@
 body {
   margin: 0 auto;
-  /* min-width: 1400px; */
+  min-width: 100%;
   position: relative;
   width: 1400px;
-  /* height: 7211px; */
+  height: 7211px;
 
   background: #ffffff;
   font-family: "Manrope", sans-serif;
@@ -146,7 +146,7 @@ h2 {
 
 .services {
   margin-top: 150px;
-  /* width: 1400px; */
+  width: 1400px;
   height: 1846px;
   background-color: #121212;
 }
