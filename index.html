@@ -15,17 +15,22 @@
   </head>
   <body>
     <header>
-      <section class="header-nav">
-        <a href="#"><img src="/resources/logo.png" alt="Логотип" /></a>
-
-        <a href="#" class="-nav-abouts">О НАС</a>
-        <a href="#" class="nav-projects">ПРОЕКТЫ</a>
-        <a href="#" class="nav-serviss">УСЛУГИ</a>
-        <a href="#" class="nav-kontacts">КОНТАКТЫ</a>
+      <div class="head__nav">
+             <a href="#"><img src="/resources/logo.png" alt="Логотип" /></a>
+<section class="header-nav">
+        <a href="#about-us" class="nav-link">О НАС</a>
+        <a href="#projects" class="nav-link">ПРОЕКТЫ</a>
+        <a href="#services" class="nav-link">УСЛУГИ</a>
+        <a href="#contacts" class="nav-link">КОНТАКТЫ</a>
       </section>
+      </div>
+   
     </header>
 
     <main>
+      <section class="container">
+
+      
       <h1>Современные и стильные интерьеры для комфортной жизни</h1>
 
       <div class="chair">
@@ -35,7 +40,7 @@
         </p>
       </div>
 
-      <section class="about-us">
+      <section id="about-us" class="about-us">
         <h2>О НАС</h2>
         <p class="about-us-text">
           Студия основана в 2011 году. Полностью отдаемся проектированию и
@@ -46,7 +51,7 @@
         <a class="btn" href="#">Посмотреть услуги</a>
       </section>
    
-    <section class="projects">
+    <section id="projects" class="projects">
         <h2>ПРОЕКТЫ</h2>
         <div class="container__hall">
           <img class="project__img" src="/resources/hall.png" alt=" Холл" />
@@ -74,7 +79,7 @@
         <a class="btn__all__projects" href="#">Смотреть все проекты</a>
       </section>
 
-      <section class="services">
+      <section id="services" class="services">
         <div class="services__box">
           <h2 class="service__text">Услуги</h2>
           <div class="container__drawing">
@@ -112,13 +117,15 @@
             </h3>
           </div>
          </section> 
-    <section class="bedroom" >
+    <section   >
+      <div class="bedroom">
             <h3 class="bedroom__text">
               Проект Двухкомнтаной квартиры в ЖК Лесной Пейзаж
             </h3>
+          </div>
         </section>
  
-        <section class="contacts" >
+        <section id="contacts" class="contacts" >
            <h2 class="contact__text">контакты</h2>
         
           <a class="nomber__contact" href="tel:+7 935  895-45-35">+7 935 895-45-35</a>
@@ -131,17 +138,17 @@
          
         
      
-    
+  </section>
     </main>
 
      <footer class="footer__item">
-      <section class="nav">
-        <a href="#" class="-nav-abouts">О НАС</a>
-        <a href="#" class="nav-projects">ПРОЕКТЫ</a>
-        <a href="#" class="nav-serviss">УСЛУГИ</a>
-        <a href="#" class="nav-kontacts">КОНТАКТЫ</a>
+      <section class="nav_footer">
+        <a href="#" class="footer_link">О НАС</a>
+        <a href="#" class="footer_link">ПРОЕКТЫ</a>
+        <a href="#" class="footer_link">УСЛУГИ</a>
+        <a href="#" class="footer_link">КОНТАКТЫ</a>
       </section>
-      <p class="row">студия дизайна интерьера Метрика — 2023</p> 
+      <p class="footer_text">студия дизайна интерьера Метрика—2023</p> 
     </footer>  
   </body>
 </html>
