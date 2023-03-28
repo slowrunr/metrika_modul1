@@ -1,5 +1,6 @@
 body {
   margin: 0 auto;
+
   position: relative;
 
   background: #ffffff;
@@ -15,7 +16,7 @@ header {
   width: 1400px;
 }
 main {
-  width: 1400px;
+  /* /* width: 1400px; */
   margin: 0 auto;
 }
 
@@ -40,10 +41,13 @@ main {
   opacity: 0.5;
   border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 }
-/* .container {
+.container__wrap {
+  margin: 0 auto;
   width: 1400px;
-} */
-h1 {
+}
+.intro__text {
+  display: inline-block;
+
   margin-bottom: 30px;
   margin-left: 125px;
   margin-top: 68px;
@@ -169,33 +173,40 @@ h2 {
 }
 
 .services {
+  margin: 0 auto;
+  max-width: 100%;
   margin-top: 150px;
 
   height: 1846px;
   background-color: #121212;
 }
+.services__container {
+  margin: auto;
+  width: 1150px;
+}
 .service__text {
-  position: relative;
   color: #ffffff;
-  padding: 151px 0 0 127px;
+  padding-top: 151px;
 }
 .drawing__img {
-  margin: 34px 0 0 125px;
+  margin-top: 34px;
 }
 .drawing__text,
 .palette__text,
 .author__text,
 .storage__text {
-  margin: 12px 0 0 128px;
+  margin-top: 12px;
+
   font-size: 30px;
   line-height: 41px;
   letter-spacing: -0.03em;
   color: #ffffff;
 }
+
 .palette__img,
 .author__img,
 .storage__img {
-  margin-left: 124px;
+  text-align: center;
   margin-top: 60px;
 }
 .bedroom {
@@ -203,11 +214,7 @@ h2 {
   position: relative;
   width: 100%;
   height: 717px;
-  background: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 0) 0.52%,
-    rgba(0, 0, 0, 0.4) 82.81%
-  );
+
   background-image: url("../resources/bedroom.png");
   background-size: cover;
 }
@@ -238,9 +245,8 @@ h2 {
   width: 13px;
   height: 22px;
   background-image: url("../resources/iconphone.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 100%;
+
+  background-position: 50%;
 }
 
 .nomber__contact,
@@ -274,7 +280,8 @@ h2 {
   background-color: #121212;
 }
 .nav_footer {
-  margin-right: 55px;
+  margin: 0 auto;
+
   padding-top: 60px;
   font-size: 18px;
 
@@ -284,13 +291,19 @@ h2 {
   color: #121212;
 }
 .footer_link {
+  padding-right: 55px;
   width: 90px;
   height: 25px;
+  text-decoration: none;
+  color: #ffffff;
+}
+.footer_link:hover {
+  opacity: 0.5;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 }
 .footer_text {
-  position: absolute;
-  top: 173px;
-  left: 510px;
+  margin: 0 auto;
+  padding-top: 87px;
   width: 389px;
   height: 27px;
   line-height: 27px;
