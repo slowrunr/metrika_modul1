@@ -15,26 +15,21 @@
   </head>
   <body>
     <header>
-      <div class="head__nav">
+      <div class="header__nav">
              <a href="#"><img src="resources/logo.png" alt="Логотип" /></a>
-<section class="header-nav">
-        <a href="#about-us" class="nav-link">О НАС</a>
+             <div class="nav__list">
+              <a href="#about-us" class="nav-link">О НАС</a>
         <a href="#projects" class="nav-link">ПРОЕКТЫ</a>
         <a href="#services" class="nav-link">УСЛУГИ</a>
         <a href="#contacts" class="nav-link">КОНТАКТЫ</a>
-      </section>
+             </div>
       </div>
-   
     </header>
-
-    <main>
-      <section class="container__wrap">
-
-      
+    <main >
+       <div class="container__wrap"> <!--пытался удалить этот див и все ломается --> 
       <h1 class="intro__text">Современные и стильные интерьеры для комфортной жизни</h1>
-
       <div class="chair">
-        <p class="chair-text">
+        <p >
           Мы - команда квалифицированных дизайнеров и архитекторов, занимающихся
           разработкой и реализацией дизайн-проектов
         </p>
@@ -48,7 +43,7 @@
           решениями и практичностью. Находим конструктивные решения для каждого
           интерьера, вплоть до каждой детали — нацелены на результат.
         </p>
-        <a class="btn" href="#">Посмотреть услуги</a>
+        <a  href="#services" class="button"> Посмотреть услуги</a>
       </section>
    
     <section id="projects" class="projects">
@@ -56,7 +51,7 @@
         <div class="container__hall">
           <img class="project__img" src="resources/hall.png" alt=" Холл" />
           <h3 class="project__text">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</h3>
-          <a class="project__btn" href="/">Подробнее →</a>
+          <a class="project__btn" href="#">Подробнее →</a>
         </div>
         <div class="container__salon">
           <img
@@ -65,7 +60,7 @@
             alt="гостинная"
           />
           <h3 class="project__text">ЖК НОРВЕЖСКИЙ ПАРК — 75 М² —2023</h3>
-          <a class="project__btn" href="/">Подробнее →</a>
+          <a class="project__btn" href="#">Подробнее →</a>
         </div>
         <div class="container__kitchen">
           <img
@@ -74,16 +69,17 @@
             alt="столовая"
           />
           <h3 class="project__text">ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022</h3>
-          <a class="project__btn" href="/">Подробнее →</a>
+          <a class="project__btn" href="#">Подробнее →</a>
         </div>
         <a class="btn__all__projects" href="#">Смотреть все проекты</a>
       </section>
-    </section>
-      <section id="services" class="services">
+      </div>
+      <section  class="services">
         <section class="services__container">
-          <h2 class="service__text">Услуги</h2>
+          <h2  id="services" class="service__text">Услуги</h2>
           <div class="container__drawing">
-            <img
+           
+            <img 
               class="drawing__img"
               src="resources/drawing.png"
               alt=" Чертеж"
@@ -119,37 +115,36 @@
           </div>
         </section>
       </section>
-    <section   >
-      <div class="bedroom">
-            <h3 class="bedroom__text">
+    <section class="bedroom">
+      
+        <div class="badroom__container">
+           <h3 class="bedroom__text">
               Проект Двухкомнтаной квартиры в ЖК Лесной Пейзаж
             </h3>
-          </div>
+        </div>
         </section>
  
-        <section id="contacts" class="contacts" >
-           <h2 class="contact__text">контакты</h2>
-        
-          <a class="nomber__contact" href="tel:+7 935  895-45-35">+7 935 895-45-35</a>
-          <p>
-            <a class="email__contact" href="mailto:hello@mail.com">hello@mail.com</a>
-          </p>
-          </div> 
-
+        <section id="contacts"  >
+          <div class="contacts__container">
+              <h2 class="contact__text">контакты</h2>
+             <a class="nomber__contact" href="tel:+7 935  895-45-35">+7 935 895-45-35</a>
+          
+             <a class="email__contact" href="mailto:hello@mail.com">hello@mail.com</a>
+          
+          </div>
+           
    </section>
-         
-        
-     
-  
+  </div>
     </main>
-
-     <footer class="footer__item">
-      <section class="nav_footer">
-        <a href="#" class="footer_link">О НАС</a>
-        <a href="#" class="footer_link">ПРОЕКТЫ</a>
-        <a href="#" class="footer_link">УСЛУГИ</a>
-        <a href="#" class="footer_link">КОНТАКТЫ</a>
-      </section>
+     <footer>
+      <div class="footer__list">
+        <ul>
+        <li><a href="#" class="footer_link">О НАС</a></li>   
+        <li><a href="#" class="footer_link">ПРОЕКТЫ</a></li>  
+        <li><a href="#" class="footer_link">УСЛУГИ</a></li>   
+        <li><a href="#" class="footer_link">КОНТАКТЫ</a></li>   
+        </ul>
+      </div>
       <p class="footer_text">студия дизайна интерьера Метрика—2023</p> 
     </footer>  
   </body>
