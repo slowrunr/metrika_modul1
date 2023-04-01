@@ -6,7 +6,6 @@ body {
   position: relative;
   background: #ffffff;
   font-family: "Manrope", sans-serif;
-  font-style: normal;
   font-weight: 400;
   box-sizing: border-box;
   letter-spacing: -0.03em;
@@ -15,6 +14,7 @@ header {
   margin: 0 auto;
   width: 1400px;
 }
+
 main {
   margin: 0 auto;
 }
